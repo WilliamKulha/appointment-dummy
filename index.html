@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Appointment Dummy Site</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1><u>James' Computer Shop</u></h1>
+        <h2><small>For when the bugs are bugging <em>you</em>!</small></h2>
+      </div>
+      <p>If your problem is urgent, please call 941.875.2475</p>
+      <p>If it's not, then fill out the form below to schedule an appoitment.</p>
+      <div class="well">
+        <form id="contactform">
+          <fieldset>
+            <legend>Schedule Your Appointment</legend>
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input id="name" type="text" class="form-control" placeholder="Jane Gervais">
+            </div>
+            <div class="form-group">
+              <label for="computer">Type of machine:</label>
+              <input id="computer" type="text" class="form-control" placeholder="2012 Macbook Air">
+            </div>
+            <div class="form-group">
+              <label for="problem">Describe your problem as best you can:</label>
+              <input id="problem" type="text" class="form-control" placeholder="The darn thing just won't start!">
+            </div>
+            <div class="form-group">
+              <label for="date">A date that's convenient for you:</label>
+              <input id="date" type="text" class="form-control" placeholder="October 25, 2018">
+            </div>
+            <div class="form-group">
+              <label for="time">A time that's convenient for you:</label>
+              <input id="time" type="text" class="form-control" placeholder="17:00">
+            </div>
+            <button type="submit" class="btn btn-success btn-lg">Schedule your Appointment</button>
+          </fieldset>
+        </form>
+      </div class="well">
+    </div>
+  </body>
+</html>
